@@ -5,7 +5,7 @@ public class Calculadora {
     private String tipoCalculadora;
     private int cantidadDeTeclas;
     private int anchoPantalla;
-    private int color;
+    private String color;
     private String marca;
     private int ancho;
     private int alto;
@@ -38,12 +38,28 @@ public class Calculadora {
     public String getMarca() {
         return marca;
     }
-public String getTipo() {
+    public String getTipo() {
         return this.tipoCalculadora;
     }
 
     public void setMarca(String marca) {
         this.marca = marca;
+    }
+
+    public int getAnchoPantalla() {
+        return anchoPantalla;
+    }
+
+    public void setAnchoPantalla(int anchoPantalla) {
+        this.anchoPantalla = anchoPantalla;
+    }
+
+    public void setColor(String cualquierColor){
+        this.color=cualquierColor;
+    }
+
+    public String getColor(){
+        return this.color;
     }
     
 }
