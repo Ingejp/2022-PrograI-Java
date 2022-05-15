@@ -38,7 +38,27 @@ public class PrograI {
         
         CalculadoraEspecial calculadora5 = new CalculadoraEspecial("Calculadora del Bazar Chino", 100);
         System.out.println(calculadora5.getTipoCalculadora() + " con " + calculadora5.getNumeroDeTeclas()+ " teclas");
-
+        calculadora1.sumar(5, 10);
+        calculadora1.restar(15, 5);
+        calculadora1.restar(1000, 500);
+        calculadora1.sumar(100, 50);
+        calculadora1.dividir(100, 4);
+        calculadora1.sumar(5, 10);
+        calculadora1.restar(15, 5);
+        calculadora1.restar(1000, 500);
+        calculadora1.sumar(100, 50);
+        calculadora1.dividir(100, 4);
+        calculadora1.sumar(5, 10);
+        calculadora1.restar(15, 5);
+        calculadora1.restar(1000, 500);
+        calculadora1.sumar(100, 50);
+        calculadora1.dividir(100, 4);
+        calculadora1.sumar(5, 10);
+        calculadora1.restar(15, 5);
+        calculadora1.restar(1000, 500);
+        calculadora1.sumar(100, 50);
+        calculadora1.dividir(100, 4);
+        calculadora1.mostrarTransacciones();        
 
 
     }
